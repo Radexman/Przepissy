@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>O mnie</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <h1 class="logo">Przepissy</h1>
+          </a>
+          <button type="button" class="btn nav-btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="./index.html" class="nav-link">główna</a>
+          <a href="./about.html" class="nav-link">o mnie</a>
+          <a href="./tags.html" class="nav-link">kategorie</a>
+          <a href="./recipes.html" class="nav-link">przepisy</a>
+          <div class="nav-link contact-link">
+            <a href="./contact.html" class="btn">kontakt</a>
+          </div> 
+        </div>
+      </div>
+    </nav>
+
+    <main class="page">
+      <section class="about-page">
+        <article>
+          <h2>Cześć jestem Radek!</h2>
+          <p>
+            Stworzyłem tę stronę z myślą o ułatwieniu
+            procesu wyszukiwania moich ulubionych przepisów.
+            Na razie nie dzieje się tu jeszcze za dużo ale
+            z biegiem czasu z pewnością zaroi się tu od przepisów.
+          </p>
+          <p>Chcesz aby Twój przepis się tutaj pojawił?
+            Skontaktuj się ze mną!
+          </p>
+          <a href="contact.html" class="btn">kontakt</a>
+        </article>
+        <img src="./assets/about.jpeg" alt="pouring salt" class="img about-img">
+      </section>
+      <section class="featured-recipes">
+        <h5 class="featured-title">Sprawdź te przepisy!</h5>
+        <!-- recipes list -->
+        <div class="recipes-list">
+          <!-- single recipe -->
+          <a href="single-recipe-strogonow.html" class="recipe">
+            <img src="./assets/recipes/recipe-1.jpg" alt="food" class="img recipe-img"/>
+            <h5>Strogonow</h5>
+            <p>Czas : 90min | Gotowanie : 60 - 70min</p>
+          </a>
+          <!-- end of single recipe -->
+           <!-- single recipe -->
+          <a href="single-recipe-rollsy.html" class="recipe">
+            <img src="./assets/recipes/recipe-2.jpg" alt="food" class="img recipe-img"/>
+            <h5>Rollsy</h5>
+            <p>Czas : 60min | Gotowanie : 30min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="single-recipe-pomidorowa.html" class="recipe">
+          <img src="./assets/recipes/recipe-4.cms" alt="food" class="img recipe-img"/>
+          <h5>Nuggetsy</h5>
+          <p>Czas : 90min | Gotowanie : 30min</p>
+          </a>
+          <!-- end of single recipe -->
+        </div>
+        <!-- end of recipes list-->
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <p>&copy; <span id="date"></span>
+        <span class="footer-logo">
+          Przepissy
+        </span>
+        Built by <a href="https://www.facebook.com/radek.siek.7" target="_blank">Radosław Siek</a>
+      </p>
+    </footer>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>

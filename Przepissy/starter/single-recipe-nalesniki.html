@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Przepis || Wybrany</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <h1 class="logo">Przepissy</h1>
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> główna </a>
+          <a href="about.html" class="nav-link"> o mnie </a>
+          <a href="tags.html" class="nav-link"> kategorie </a>
+          <a href="recipes.html" class="nav-link"> przepisy </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> kontakt </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img
+            src="./assets/recipes/recipe-5.webp"
+            class="img recipe-hero-img"
+          />
+          <article class="recipe-info">
+            <h2>Naleśniki z twarogiem i dżemem</h2>
+            <p>
+              Naleśniki z twarogiem i dżemem to pomysł na śniadanie albo szybki obiad dla miłośników
+              słodkich smaków. Takie naleśniki możecie przygotować wcześniej i odgrzać w mikrofalówce
+              lub na patelni z odrobiną oleju albo masła. Warto podać je z dodatkowym jogurtem.
+              Idealnie, jeśli macie domowy dżem albo taki naprawdę sprawdzony, z niewielką ilością
+              cukru. Kto dżemu unika, ten daje do środka naleśników świeże owoce – maliny, truskawki.
+              Możecie je lekko rozgnieść widelcem. 
+            </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>Czas przygotowania</h5>
+                <p>30 min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>Gotowanie</h5>
+                <p>15 min.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>porcje</h5>
+                <p>4 porcje</p>
+              </article>
+            </div>
+            <p class="recipe-tags">
+              Kategorie : <a href="tag-template.html">śniadanie</a>
+              <a href="tag-template.html">przekąska</a>
+              <a href="tag-template.html">lekkie</a>
+              <a href="tag-template.html">słodkie</a>
+            </p>
+          </article>
+        </section>
+        <!-- content -->
+        <section class="recipe-content">
+          <article>
+            <h4>przepis</h4>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>krok 1</p>
+                <div></div>
+              </header>
+              <p>
+                Jajka roztrzep, wlej mleko i wodę, wsyp mąkę, ubij trzepaczką, odstaw na 5-10 minut.
+                Jeśli ciasto będzie zbyt gęste dolej trochę wody.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>krok 2</p>
+                <div></div>
+              </header>
+              <p>
+                Usmaż naleśniki na lekko natłuszczonej patelni. Przy średniej wielkości patelni powinno wyjść 8 placków.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>krok 3</p>
+                <div></div>
+              </header>
+              <p>
+                Ser rozgnieć widelcem, wymieszaj z jogurtem, syropem klonowym i wanilią.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>krok 4</p>
+                <div></div>
+              </header>
+              <p>
+                Posmaruj naleśniki, dołóż po łyżce dżemu. Złóż lub zroluj. Posyp cynamonem.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>Składaniki</h4>
+              <p class="single-ingredient">Mąka 200 g</p>
+              <p class="single-ingredient">Mleko 2 proc. 200 ml</p>
+              <p class="single-ingredient">Woda 220 ml</p>
+              <p class="single-ingredient">Jajka średnie 2 szt.</p>
+              <p class="single-ingredient">Twaróg chudy 250 g</p>
+              <p class="single-ingredient">Gęsty jogurt 2 łyżki</p>
+              <p class="single-ingredient">Wanilia – kilka kropli aromatu, a najlepiej odrobina ziarenek</p>
+              <p class="single-ingredient">Syrop klonowy 1-2 łyżki</p>
+              <p class="single-ingredient">Dżem np. truskawkowy 300 g</p>
+              <p class="single-ingredient">Olej 2 łyżki</p>
+              <p class="single-ingredient">Cynamon</p>
+            </div>
+            <div>
+              <h4>Sprzęt kuchenny</h4>
+              <p class="single-tool">mixer / trzepaczka</p>
+              <p class="single-tool">palnik</p>
+              <p class="single-tool">średnia patelnia</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">Przepissy</span> Built by
+        <a href="https://www.facebook.com/radek.siek.7">Radosław Siek</a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
